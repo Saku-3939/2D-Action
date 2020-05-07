@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Coin
   - Enemy
+  - Mask
+  - PowerUp
   layers:
   - Default
   - TransparentFX
@@ -17,9 +19,9 @@ TagManager:
   - 
   - 
   - Background
-  - 
-  - 
-  - 
+  - Mask
+  - Player
+  - Coin
   - 
   - 
   - 

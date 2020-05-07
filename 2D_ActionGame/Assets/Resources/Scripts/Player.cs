@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     public AnimationCurve dashCurve;
     public AnimationCurve jumpCurve;
     public float beforeInput;
+    public GameObject mask;
+    public bool canShoot;
     
     // Start is called before the first frame update
     void Start()
@@ -111,8 +113,17 @@ public class Player : MonoBehaviour
         {
             playerAnim.SetBool("lose", true);
         }
+
+
     }
-   
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F) && canShoot)
+        {
+            ShootMask();
+        }
+    }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -125,5 +136,24 @@ public class Player : MonoBehaviour
             Destroy(collision.gameObject);
             lifeManager.LifeDamage();
         }
+    }
+
+    IEnumerator PowerUpCountDown()
+    {
+        yield return new WaitForSeconds(7);
+        canShoot = false;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "PowerUp")
+        {
+            canShoot = true;
+            Destroy(collision.gameObject);
+            StartCoroutine(PowerUpCountDown());
+        }
+    }
+    public void ShootMask()
+    {
+        Instantiate(mask, transform.position, mask.transform.rotation);
     }
 }

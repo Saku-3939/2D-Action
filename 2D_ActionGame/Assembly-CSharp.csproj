@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CE2CB05D-CC79-864E-9D22-CB130C10D641}</ProjectGuid>
+    <ProjectGuid>{B718A026-AA08-C86A-21FD-0A0B47DD95BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,49 +66,53 @@
     <Compile Include="Assets\Resources\Scripts\CameraController.cs" />
     <Compile Include="Assets\Resources\Scripts\GameManager.cs" />
     <Compile Include="Assets\Resources\Scripts\GroundCheck.cs" />
-    <Compile Include="Assets\Resources\Scripts\LeftMove.cs" />
     <Compile Include="Assets\Resources\Scripts\LifeManager.cs" />
+    <Compile Include="Assets\Resources\Scripts\MaskManager.cs" />
+    <Compile Include="Assets\Resources\Scripts\Move.cs" />
+    <Compile Include="Assets\Resources\Scripts\OutOfBounds.cs" />
     <Compile Include="Assets\Resources\Scripts\Player.cs" />
+    <Compile Include="Assets\Resources\Scripts\PowerUp.cs" />
+    <Compile Include="Assets\Resources\Scripts\ShootMask.cs" />
     <Compile Include="Assets\Resources\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Resources\Scripts\TitleManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/sauma/OneDrive/デスクトップ/UnityProjects/2D_HardDrivenCasualGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/sauma/OneDrive/Documents/GitHub/2D-Action/2D_ActionGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

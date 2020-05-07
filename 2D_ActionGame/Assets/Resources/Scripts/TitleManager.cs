@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TitleManager : MonoBehaviour
 {
@@ -14,5 +15,11 @@ public class TitleManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void SendMainGame()
+    {
+        Debug.Log("Clicked!");
+        SceneManager.LoadScene("MainGame");
     }
 }
